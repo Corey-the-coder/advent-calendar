@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>December Advent Calendar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>December Advent Calendar</h1>
+  <form id="tracker-form">
+    <label for="date">Date:</label>
+    <input type="date" id="date" required>
+    <br>
+    <label for="conversations">Conversations so far:</label>
+    <input type="number" id="conversations" required>
+    <br>
+    <button type="button" onclick="updateCalendar()">Submit</button>
+  </form>
+  <div id="calendar"></div>
+  <script src="script.js"></script>
+</body>
+</html>
