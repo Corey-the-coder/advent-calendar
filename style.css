@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    margin: 20px;
+    color: #333;
+  }
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  #calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 days per week */
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .day {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+    text-decoration: line-through;
+  }
+  
+  .current {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .future {
+    background-color: #f9f9f9;
+  }
+  
+  
